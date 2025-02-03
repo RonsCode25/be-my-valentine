@@ -37,7 +37,7 @@ body {
     border-radius: 20px;
 }
 .msg {
-    font-size: clamp(30px, 4vw, 60px);
+    font-size: clamp(40px, 4vw, 60px);
     color: white;
     text-shadow: 
         0 0 5px #000,
