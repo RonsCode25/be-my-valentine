@@ -20,15 +20,15 @@ function move(){
 
     const rdloc = (() => {
         let randX, randY;
-        const btnW = btn.offsetWidth;
-        const btnH = btn.offsetHeight;
+        const btnW = btn.offsetWidth-50;
+        const btnH = btn.offsetHeight-50;
     
         const maxX = (vw-btnW)+20;
         const maxY = (vh-btnH)+20;
     
         do {
-            randX = Math.random() * maxX+20;
-            randY = Math.random() * maxY+20;
+            randX = Math.random() * maxX;
+            randY = Math.random() * maxY;
         } while (Math.abs(randX - curX) < btnW && Math.abs(randY - curY) < btnH);
     
         return {
