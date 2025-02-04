@@ -23,8 +23,8 @@ function move(){
         const btnW = btn.offsetWidth;
         const btnH = btn.offsetHeight;
     
-        const maxX = (vw-btnW)+20;
-        const maxY = (vh-btnH)+20;
+        const maxX = (vw-btnW);
+        const maxY = (vh-btnH);
     
         do {
             randX = (Math.random() * maxX)+10;
