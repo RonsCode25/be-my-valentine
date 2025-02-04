@@ -20,8 +20,8 @@ function move(){
 
     const rdloc = (() => {
         let randX, randY;
-        const btnW = btn.offsetWidth-50;
-        const btnH = btn.offsetHeight-50;
+        const btnW = btn.offsetWidth;
+        const btnH = btn.offsetHeight;
     
         const maxX = (vw-btnW)+20;
         const maxY = (vh-btnH)+20;
