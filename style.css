@@ -63,7 +63,7 @@ body {
     color: white;
     background-color: #000;
     border: none;
-    font-size: clamp(8px, 2vw, 16px);
+    font-size: clamp(10px, 2vw, 16px);
     box-shadow:
         0 0 2px #000,
         0 0 5px #fff, 
