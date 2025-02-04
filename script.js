@@ -27,8 +27,8 @@ function move(){
         const maxY = (vh-btnH)+20;
     
         do {
-            randX = Math.random() * maxX;
-            randY = Math.random() * maxY;
+            randX = Math.random() * maxX+20;
+            randY = Math.random() * maxY+20;
         } while (Math.abs(randX - curX) < btnW && Math.abs(randY - curY) < btnH);
     
         return {
